@@ -1,0 +1,28 @@
+<!--
+ * @Author: 任继民
+ * @Date: 2021-03-02 14:03:10
+ * @LastEditors: 任继民
+ * @LastEditTime: 2021-03-09 16:01:36
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="./plug/heatmap.js"></script>
+    </head>
+    <body>
+      <noscript>
+        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't
+            work properly without JavaScript enabled. Please enable it to
+            continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <script src="./config.js"></script>
+      </body>
+    </html>

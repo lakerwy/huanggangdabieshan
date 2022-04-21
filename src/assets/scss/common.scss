@@ -1,0 +1,171 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color: #0c1230;
+}
+
+@font-face {
+  font-family: SourceHanSansCN-Medium;
+  src: url('../font/SourceHanSansCN-Medium.otf'),
+}
+
+// 文字发光
+.textShow {
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 15px #ffffff,
+    0 0 20px #5797ed,
+    0 0 35px #5797ed;
+}
+
+.layoutPage {
+  position: relative;
+  background-image: radial-gradient(ellipse farthest-corner at center center, #033958 0, #080542 70%);
+}
+
+.leftBg {
+  width: 423px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+}
+
+.boxbg {
+  border: solid 1px #68a9ff;
+  box-shadow: 0px 1px 19px #68a9ff inset;
+}
+
+.rightBg {
+  width: 462px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 2;
+}
+
+.mapData {
+  width: 100vw;
+  height: calc(100vh - 92px);
+}
+
+.mapBg {
+  background-image: url(../../assets/images/椭圆7.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.center-top {
+  position: absolute;
+  top: 20px;
+  left: 535px;
+  z-index: 2;
+}
+
+.center-down {
+  position: absolute;
+  bottom: 10px;
+  left: 535px;
+  z-index: 2;
+}
+
+// 样式覆盖
+.el-select {
+  .el-input {
+    .el-input__inner {
+      background-color: #0d1436;
+      border: solid 1px #68a9ff;
+    }
+  }
+}
+
+.el-table {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.el-table thead {
+  color: #68a9ff !important;
+}
+
+.el-table::before {
+  background-color: transparent !important;
+}
+
+.el-table th,
+.el-table tr,
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: transparent !important;
+}
+
+.el-table td,
+.el-table th.is-leaf {
+  border-bottom: solid 1px transparent !important;
+}
+
+.el-pagination {
+  text-align: right;
+}
+
+.el-pagination .btn-next,
+.el-pagination .btn-prev {
+  background-color: transparent !important;
+}
+
+.el-pager li {
+  background-color: transparent !important;
+  border: solid 1px #737a8d !important;
+  border-radius: 2px !important;
+  margin-left: 8px !important;
+  color: #b9bbc0 !important;
+}
+
+.el-pager li.active {
+  background-color: #68a9ff !important;
+  border-radius: 2px;
+  border: solid 1px #68a9ff !important;
+  color: #ffffff !important;
+}
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+
+  width: 10px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+
+  height: 1px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+
+  border-radius: 10px;
+
+  -webkit-box-shadow: inset 0 0 5px #68a9ff;
+
+  background: #535353;
+
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+
+  -webkit-box-shadow: inset 0 0 5px #68a9ff;
+
+  border-radius: 10px;
+
+  background: #EDEDED;
+
+}
