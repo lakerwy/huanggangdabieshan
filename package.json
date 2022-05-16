@@ -1,0 +1,82 @@
+{
+  "name": "geopark_platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "0.4.0",
+    "@smallwei/avue": "^2.8.23",
+    "@turf/boolean-intersects": "^6.5.0",
+    "@turf/buffer": "^6.5.0",
+    "@turf/turf": "^6.5.0",
+    "ant-design-vue": "^2.2.2",
+    "axios": "^0.21.1",
+    "cesium": "^1.84.0",
+    "cesium-navigation-es6": "^1.1.7",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "echarts": "^4.2.1",
+    "element-plus": "^1.0.2-beta.55",
+    "element-resize-detector": "^1.2.3",
+    "element-ui": "^2.12.0",
+    "gcoord": "^0.3.2",
+    "js-base64": "^3.7.2",
+    "less-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "nprogress": "^0.2.0",
+    "ol": "6.5.0",
+    "proj4": "^2.7.5",
+    "qs": "^6.10.1",
+    "v-viewer": "^3.0.9",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.3.7",
+    "vue-echarts": "^4.0.1",
+    "vue-json-editor": "^1.4.3",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-router": "^4.0.10",
+    "vue-seamless-scroll": "^1.1.23",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^4.0.2",
+    "wangeditor": "^4.7.8",
+    "wkt-parser-helper": "^3.0.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@easydarwin/easywasmplayer": "^4.0.13",
+    "@open-wc/webpack-import-meta-loader": "^0.4.7",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "copy-webpack-plugin": "^6.4.1",
+    "echarts": "^4.9.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass-loader": "^7.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

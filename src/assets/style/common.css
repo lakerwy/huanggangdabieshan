@@ -1,0 +1,70 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1920px;
+  min-height: 937px;
+  position: relative;
+  z-index: 3;
+}
+.page-content {
+  background: #fff;
+  height: 100%;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 6px;
+  border-radius: 4px;
+  background: #ccc;
+}
+.scrollbar::-webkit-scrollbar-track {
+  width: 6px;
+  height: 6px;
+  border-radius: 4px;
+  background: #eee;
+}
+.query-layers .el-tree-node__content:hover {
+  background-color: rgba(3, 103, 123, 0.1);
+  color: #18639d;
+  font-weight: bold;
+}
+.board1 {
+  width: 130px !important;
+  text-indent: 24px !important;
+  background: #3585cc !important;
+  word-break: break-all !important;
+}
+.board1 .el-popper__arrow::before {
+  background: #3585cc !important;
+}
+.dialog-video4 {
+  background: #1b4e84;
+  margin-top: 0 !important;
+  margin: 0px auto;
+  height: 100%;
+}
+.dialog-video4 .el-dialog__close {
+  color: #fff;
+}
+.dialog-video4 .el-dialog__header {
+  text-align: center;
+}
+.dialog-video4 .el-dialog__header .el-dialog__title {
+  color: #68cbff;
+  font-weight: bold;
+  font-size: 24px;
+}
+.dialog-video4 .el-dialog__body {
+  padding: 0;
+  height: calc(100% - 54px);
+}
+.iconqingxiLOGO:before {
+  content: '' !important;
+}
